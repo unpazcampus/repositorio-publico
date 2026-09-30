@@ -1,0 +1,552 @@
+/*Font*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;display=swap');
+
+/*Colores de fondo*/
+.background-verde {
+    background-color: #298080;
+}
+
+.background-celeste {
+    background-color: #4a7c9f;
+}
+
+.background-gris {
+    background-color: #736e6e;
+}
+
+.background-violeta {
+    background-color: #663399;
+}
+
+.background-blanco {
+    background-color: #fcfcf7;
+}
+
+.background-negro {
+    background-color: #000000;
+}
+
+/*Colores letras*/
+.color-verde {
+    color: #298080;
+}
+
+.color-celeste {
+    color: #4a7c9f;
+}
+
+.color-gris {
+    color: #736e6e;
+}
+
+.color-violeta {
+    color: #663399;
+}
+
+.color-blanco {
+    color: #fcfcf7;
+}
+
+.color-negro {
+    color: #000000
+}
+
+/*Colores Bordes*/
+.borde-verde {
+    border: 2px solid #298080;
+}
+
+.borde-violeta {
+    border: 2px solid #663399;
+}
+
+/*Menu principal*/
+#contenedor-principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#menu-principal {
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+}
+
+#menu {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.titulo-bienvenidos {
+    color: #4a7c9f;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 25px;
+    font-weight: 400;
+    font-style: italic;
+    max-width: 500px;
+}
+
+#contenedor-bienvenidos {
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Botones*/
+#contenedor-botoninformacion button {
+    min-height: 40px;
+    max-width: 520px;
+    border-radius: 10px;
+    border: none;
+}
+
+#contenedor-botonesusuarios button {
+    height: 40px;
+    max-width: 520px;
+    border-radius: 10px;
+    border: none;
+}
+
+.contenedor-botones {
+    margin-top: 15px;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    text-align: center;
+}
+
+.contenedor-botones button {
+    width: 100%;
+}
+
+.btn-unpaz {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 22px;
+    font-weight: 670;
+    font-style: normal;
+}
+
+.btn-unpaz:hover .carousel-control:hover {
+    filter: brightness(80%);
+}
+
+/*Carousel*/
+.contenedor-carousel {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.carousel-indicators li {
+    border: 1px solid #4a7c9f;
+}
+
+.carousel-indicators .active {
+    background-color: #4a7c9f;
+}
+
+.carousel-indicators {
+    bottom: auto;
+}
+
+.carousel-caption {
+    padding-top: 0px;
+    padding-bottom: 0px
+}
+
+.carousel-caption h3,
+.carousel-caption p {
+    color: #4a7c9f;
+}
+
+.texto {
+    flex: 1;
+    color: #245AA2;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 22px;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.carousel-inner div div img {
+    width: 200px;
+    height: 200px;
+}
+
+.carousel-inner div div.texto {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#img-1,
+#img-2,
+#img-3 {
+    height: 120px;
+    width: 200px;
+}
+
+#my-pics {
+    max-width: 800px;
+    margin: auto;
+    margin: 0px 10px;
+}
+
+.carousel-control:hover,
+.carousel-control:active,
+.carousel-control:focus {
+    color: #245AA2;
+    filter: brightness(80%);
+}
+
+.carousel-control {
+    color: #245AA2;
+    width: 10px;
+}
+
+.carousel-control.right,
+.carousel-control.left {
+    background-image: none;
+}
+
+.carousel-control.left {
+    width: 30px;
+}
+
+/*---Menu informacion, Menu estudiantes, Menu docentes, Menu ingresantes---*/
+/*top*/
+.row-informacion {
+    margin: 0px 10px;
+}
+
+#contenedor-top {
+    display: flex;
+    margin: 10px;
+}
+
+#contenedor-top button {
+    background-color: transparent;
+    border: none;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 18px;
+    font-weight: 600;
+    font-style: normal;
+}
+
+#contenedor-top button:hover {
+    text-decoration: underline;
+}
+
+.flecha {
+    position: relative;
+    top: 7px;
+}
+
+.play {
+    font-size: 30px;
+}
+
+#contenedor-top img {
+    background-color: black;
+    width: 25px;
+    height: 25px;
+}
+
+#contenedor-botones {
+    margin-top: 15px;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    gap: 20px;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    align-items: stretch;
+    align-content: center;
+}
+
+#contenedor-botones button {
+    min-height: 40px;
+    max-width: 600px;
+    border-radius: 10px;
+    border: none;
+}
+
+.row-contenedor {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+/*---Menu cartas---*/
+.btn-transparente {
+    border: none;
+    background-color: transparent;
+}
+
+#contenedor-presentacion {
+    display: flex;
+    justify-content: center;
+}
+
+#contenedor-presentacion .card {
+    width: 450px;
+    display: flex;
+    gap: 20px;
+}
+
+#contenedor-presentacion .card img {
+    width: 60px;
+    height: 50px;
+}
+
+#contenedor-presentacion .card .descripcion {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+#contenedor-presentacion .card .descripcion hr {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#contenedor-presentacion .card .descripcion span {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 20px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+#contenedor-presentacion .card .descripcion p {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#contenedor-presentacion .card .descripcion p {
+    text-align: start;
+}
+
+#contenedor-presentacion .card .ingresar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+#contenedor-presentacion .card .ingresar span {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 15px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+#contenedor-guia-interactiva {
+    position: relative;
+    left: -170px;
+}
+
+#contenedor-guia-interactiva .card {
+    width: 300px;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+}
+
+#contenedor-guia-interactiva .card img {
+    width: 60px;
+    height: 50px;
+}
+
+#contenedor-guia-interactiva .card .descripcion {
+    display: flex;
+    flex-direction: column;
+}
+
+#contenedor-guia-interactiva .card .descripcion span {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 20px;
+    font-weight: 700;
+    font-style: normal;
+    text-align: start;
+}
+
+#contenedor-guia-interactiva .card .descripcion p {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    text-align: start;
+}
+
+#contenedor-guia-interactiva .card .ingresar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+#contenedor-guia-interactiva .card .ingresar span {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 15px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.contenedor-cartas {
+    display: flex;
+    gap: 40px;
+    flex: 1;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contenedor-cartas .card {
+    width: 300px;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+}
+
+.contenedor-cartas .card .descripcion {
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedor-cartas .card .descripcion p {
+    text-align: start;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.contenedor-cartas .card .descripcion .btn-mas {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-content: flex-end;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.contenedor-cartas .card .titulo img {
+    width: 60px;
+    height: 50px;
+}
+
+.contenedor-cartas .card .titulo {
+    display: flex;
+    align-items: center;
+}
+
+.contenedor-cartas .card .titulo span {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 15px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+#contenedor-cursos {
+    flex: 0;
+}
+
+/*Usar todo el ancho del fondo*/
+div.main-container {
+    width: 99%;
+}
+
+.page-header {
+    display: none;
+}
+
+/*Media Querys*/
+/*Pantallas grandes (desktops de menos de 1200px)*/
+@media (max-width: 1199.98px) {
+    #contenedor-top button {
+        font-size: 15px;
+        font-weight: 600;
+    }
+}
+
+/*Pantallas medianas (tablets de menos de 992px)*/
+@media (max-width: 991.98px) {
+    .contenedor-botones {
+        gap: 20px;
+    }
+
+    #contenedor-bienvenidos h2 {
+        font-size: 25px;
+    }
+}
+
+/*Pantallas pequeñas (móviles en landscape de menos de 768px)*/
+@media (max-width: 767.98px) {
+
+    .btn-unpaz {
+        font-size: 16px;
+    }
+
+
+    #contenedor-top button {
+        font-size: 10px;
+    }
+
+    .contenedor-botones {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        align-content: center;
+    }
+
+    /*---Menu cartas---*/
+    .contenedor-cartas {
+        flex-direction: column;
+    }
+
+    #contenedor-guia-interactiva {
+        position: relative;
+        left: 0px;
+    }
+}
+
+/*Pantallas muy pequeñas (móviles en portrait de menos de 576px)*/
+@media (max-width: 575.98px) {
+    .carousel-inner div div img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .carousel-inner div div.texto p {
+        font-size: 15px;
+    }
+}
+
+/*]]&amp;amp;gt;*/
