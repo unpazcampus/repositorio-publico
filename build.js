@@ -14,7 +14,7 @@ const CONFIG_FLAGS = {
 const CONFIG_TEXTS = {
   tituloBienvenida: "Te damos la bienvenida al Campus Virtual de la UNPAZ",
   notificacion:
-    "Se informa a la comunidad universitaria que uno de los gremios no docente ha manifestado su adhesión al paro nacional docente los días 09 octubre. Consulta con tu profesor/a el alcance de la medida."
+    "Se informa a la comunidad universitaria que los gremios no docentes han manifestado su adhesión al paro nacional el día 09 octubre. Consulta con tu profesor/a el alcance de la medida."
 };
 
 const CONFIG_LINKS = {
