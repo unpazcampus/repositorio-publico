@@ -8,13 +8,13 @@ const CONFIG_FLAGS = {
   mostrarBotonesIngresantes: true,
   mostrarBotonesDocentes: true,
   mostrarCarouselDocentes: false,
-  mostrarNotificacion: false
+  mostrarNotificacion: true
 };
 
 const CONFIG_TEXTS = {
   tituloBienvenida: "Te damos la bienvenida al Campus Virtual de la UNPAZ",
   notificacion:
-    "Se informa a la comunidad universitaria que los gremios no docentes han manifestado su adhesión al paro nacional el día 09 octubre. Consulta con tu profesor/a el alcance de la medida."
+    "Se informa a la comunidad universitaria que en el marco 5ᵃ Marcha Federal Universitaria y ante el cese de actividades dispuesto por los gremios docentes y nodocente, consultá con tu docente cómo se desarrollará la clase del jueves 15 de octubre."
 };
 
 const CONFIG_LINKS = {
