@@ -14,7 +14,7 @@ const CONFIG_FLAGS = {
 const CONFIG_TEXTS = {
   tituloBienvenida: "Te damos la bienvenida al Campus Virtual de la UNPAZ",
   notificacion:
-    "En el marco de la 5ᵃ Marcha Federal Universitaria y ante el cese de actividades dispuesto por los gremios docentes y nodocente, consultá con tu docente cómo se desarrollará la clase del jueves 15 de octubre."
+    "En el marco de la 5ᵃ Marcha Federal Universitaria y ante el paro de 24hs dispuesto por la Federación de Docentes Universitarios y el cese de actividades dispuesto por el resto de los gremios docentes y nodocente, consultá con tu docente cómo se desarrollará la clase del jueves 15 de octubre."
 };
 
 const CONFIG_LINKS = {
