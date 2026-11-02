@@ -8,13 +8,13 @@ const CONFIG_FLAGS = {
   mostrarBotonesIngresantes: true,
   mostrarBotonesDocentes: true,
   mostrarCarouselDocentes: false,
-  mostrarNotificacion: false
+  mostrarNotificacion: true
 };
 
 const CONFIG_TEXTS = {
   tituloBienvenida: "Te damos la bienvenida al Campus Virtual de la UNPAZ",
   notificacion:
-    "Se informa a la comunidad universitaria que el día 28 de octubre habrá paro de los gremios docentes y del gremio nodocente. Consultá con tu profesor el alcance de la medida."
+    "Se informa a la comunidad universitaria que debido al paro dispuesto por el gremio nodocente, el día 3 de noviembre la universidad permanecerá cerrada. Consultá con tu profesor/a  el alcance de la medida"
 };
 
 const CONFIG_LINKS = {
