@@ -14,7 +14,7 @@ const CONFIG_FLAGS = {
 const CONFIG_TEXTS = {
   tituloBienvenida: "Te damos la bienvenida al Campus Virtual de la UNPAZ",
   notificacion:
-    "Se informa a la comunidad universitaria que debido al paro dispuesto por el gremio nodocente, el día 3 de noviembre la universidad permanecerá cerrada. Consultá con tu profesor/a  el alcance de la medida"
+    "Se informa a la comunidad universitaria que debido al paro dispuesto por el gremio docente y nodocente, el día jueves 12 de noviembre la universidad permanecerá cerrada. Consultá con tu profesor/a  el alcance de la medida"
 };
 
 const CONFIG_LINKS = {
