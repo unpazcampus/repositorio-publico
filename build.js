@@ -8,7 +8,7 @@ const CONFIG_FLAGS = {
   mostrarBotonesIngresantes: true,
   mostrarBotonesDocentes: true,
   mostrarCarouselDocentes: false,
-  mostrarNotificacion: false
+  mostrarNotificacion: true
 };
 
 const CONFIG_TEXTS = {
