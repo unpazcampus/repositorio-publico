@@ -1,1 +1,1 @@
-window.__UNPAZ_BUILD_VERSION__ = "2026-11-15-01";
+window.__UNPAZ_BUILD_VERSION__ = "2026-11-18-01";
